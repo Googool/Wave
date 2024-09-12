@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier", "plugin:prettier/recommended"],
+  "rules": {
+    "camelcase": "error",
+    "arrow-spacing": "error",
+    "no-unused-vars": "warn",
+    "no-inner-declarations": "off",
+    "no-var": "error",
+    "no-unexpected-multiline": "error",
+    "@typescript-eslint/no-explicit-any": "warn"
+  },
+  "ignorePatterns": ["dist", "node_modules"]
+}

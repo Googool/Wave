@@ -1,0 +1,33 @@
+{
+  "name": "ctrl",
+  "version": "1.0.0",
+  "description": "Utility",
+  "main": "dist/index.js",
+  "author": "Ask Marius <askx0113@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && tsc --build",
+    "start": "node --enable-source-maps dist/index.js",
+    "watch": "nodemon --exec ts-node src/index.ts",
+    "format": "prettier --write \"**/*.{ts,js,json}\" && eslint \"**/*.{ts,js}\" --fix"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^8",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
