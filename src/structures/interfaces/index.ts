@@ -1,2 +1,2 @@
-export { Command } from './command';
-export { Event } from './event';
+export { Command } from './Command';
+export { Event } from './Event';

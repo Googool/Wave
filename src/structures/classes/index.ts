@@ -1,1 +1,1 @@
-export { ExtendedClient } from './client';
+export { ExtendedClient } from './ExtendedClient';
