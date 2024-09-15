@@ -1,1 +1,1 @@
-export { loadFiles, clearCache } from './loader';
+/** Empty for now */
