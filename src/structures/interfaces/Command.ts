@@ -6,7 +6,7 @@ interface CommandOptions {
 }
 
 export interface Command {
-  data: SlashCommandBuilder;
+  data: SlashCommandBuilder | any;
   options?: CommandOptions;
   execute: (...args: any[]) => any;
 }
