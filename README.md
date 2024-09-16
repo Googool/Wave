@@ -1,5 +1,7 @@
 # ToDo
 
+ Keep it simple. This application is intended for Sea of Thieves tracking and not for Discord moderation / management.
+
  Fix these warnings:
 
 ```
