@@ -1,3 +1,5 @@
+# Ctrl <img align="right" width="100" height="100" src="images\logo.png">
+
 # ToDo
 
  Keep it simple. This application is intended for Sea of Thieves tracking and not for Discord moderation / management.
