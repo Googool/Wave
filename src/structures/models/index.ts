@@ -1,1 +1,1 @@
-/** Empty for now */
+export { default as Guild } from './Guild';
