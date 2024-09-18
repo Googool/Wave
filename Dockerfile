@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:18-alpine
 
 WORKDIR /usr/src/app
 
@@ -10,6 +10,4 @@ COPY . .
 
 RUN yarn build
 
-EXPOSE 3000
-
-CMD ["yarn", "start"]
+CMD ["node", "--enable-source-maps", "./dist/index.js"]

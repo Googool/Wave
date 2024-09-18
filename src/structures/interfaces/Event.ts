@@ -5,8 +5,8 @@ interface EventOptions {
   REST?: boolean;
 }
 
-export interface Event {
-  name: keyof ClientEvents;
+export interface Event<K extends keyof ClientEvents> {
+  name: K;
   options?: EventOptions;
-  execute: (...args: any[]) => any;
+  execute: (...args: ClientEvents[K]) => Promise<void> | void;
 }

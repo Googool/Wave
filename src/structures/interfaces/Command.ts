@@ -1,12 +1,12 @@
-import { SlashCommandBuilder } from 'discord.js';
+import { SlashCommandBuilder, ChatInputCommandInteraction, PermissionResolvable } from 'discord.js';
 
 interface CommandOptions {
   cooldown?: number;
-  permissions?: string[];
+  permissions?: PermissionResolvable[];
 }
 
 export interface Command {
-  data: SlashCommandBuilder | any;
+  data: SlashCommandBuilder;
   options?: CommandOptions;
-  execute: (...args: any[]) => any;
+  execute: (interaction: ChatInputCommandInteraction) => Promise<void>;
 }

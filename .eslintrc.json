@@ -6,7 +6,7 @@
   "rules": {
     "camelcase": "error",
     "arrow-spacing": "error",
-    "no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
     "no-inner-declarations": "off",
     "no-var": "error",
     "no-unexpected-multiline": "error",
