@@ -23,6 +23,10 @@ docker run --env-file .env wave-discord-bot
 
 Ensure your `.env` file is in the same directory and contains the necessary environment variables (e.g., `CLIENT_ID`, `DISCORD_TOKEN`, `DATABASE_URL`).
 
+## To-Do List
+- Move (or rework) the handlers inside of `Client.ts`.
+- Add more stuff...
+
 ## License
 
 The content and software in this [repository](https://github.com/Googool/Wave) are licensed under the [MIT license](https://mit-license.org/).
